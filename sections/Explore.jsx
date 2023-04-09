@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 import { TypingText, TitleText, ExploreCard } from "../components"
 
 import styles from "../styles"
-import { fadeIn, staggerContainer } from "../utils/motion"
+import { staggerContainer } from "../utils/motion"
 import { exploreWorlds } from "../constants/"
 
 const Explore = () => {
@@ -22,7 +22,6 @@ const Explore = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        s
         <TypingText title='| The World' textStyles='text-center' />
         <TitleText
           title={
